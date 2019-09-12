@@ -1,4 +1,4 @@
-FROM mongo:3.4
+FROM mongo:4.0
 LABEL maintainer="hajo@ventx.de"
 
 RUN apt-get update && apt-get install git openssh-client unzip zip -y
